@@ -16,7 +16,10 @@ body {
     position: relative;
     margin-top: 40px;
 }
+.testimonial p{
+    text-align:justify;
 
+}
 .testimonial:before,
 .testimonial:after {
     content: "";
