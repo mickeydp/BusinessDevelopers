@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: var(--website-bg);
+    background-color:(linear, left top, right bottom, from(rgba(179, 165, 42, 0.8)), to(rgba(226, 118, 17, 0.8)));
     font-family: "Lato", sans-serif;
 
 }
