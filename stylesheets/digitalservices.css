@@ -6,6 +6,12 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: var(--website-bg);
+    font-family: "Lato", sans-serif;
+
+}
+
 h1 {
     color: white;
 }
@@ -15,11 +21,6 @@ h2 {
     color: var(--color-headings);
 }
 
-body {
-    background-color: var(--website-bg);
-    font-family: "Lato", sans-serif;
-
-}
 
 main {
     margin: 10px 20px;
