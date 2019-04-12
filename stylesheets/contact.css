@@ -3,7 +3,6 @@
 body {
     background-image: var(--website-bg), url("../img/background/contact.svg");
     color: var(--color-text-1);
-    line-height: 1.6;
     font-family: "Lato", sans-serif;
     text-align: center;
 }

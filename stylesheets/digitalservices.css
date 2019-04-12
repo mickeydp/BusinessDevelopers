@@ -16,7 +16,7 @@ h2 {
 }
 
 body {
-    background: var(--website-bg);
+    background-color: var(--website-bg);
     font-family: "Lato", sans-serif;
 
 }
