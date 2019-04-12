@@ -71,17 +71,28 @@ ul {
 }
 
 .contact form button {
-    background: color: var(--website-bg);
-    border: 0;
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 500;
+    text-decoration: none;
     text-transform: uppercase;
+    font-size: .9rem;
+    border-radius: 200px;
+    border: 1px solid orange;
+    transform: scale(1);
+    -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.801);
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.801);
+    -webkit-transition: all .3s;
+    transition: all .3s;
 }
 
 .contact form button:hover,
 .contact form button:focus {
-    background: #92bde7;
-    color: var(--color-text-2);
-    outline: 0;
-    transition: background-color 2s ease-out;
+    background: var(--btn);
+    transform: translateY(-10%);
+    -webkit-box-shadow: 3px 8px 20px #000000d3;
+    box-shadow: 3px 8px 20px #000000d3;
+    color: white;
 }
 
 input[type=text],
