@@ -1,7 +1,7 @@
 // Sticky Header
 $(window).scroll(function() {
 
-  if ($(window).scrollTop() > 100) {
+  if ($(window).scrollTop() >0) {
       $('.main_h').addClass('sticky');
   } else {
       $('.main_h').removeClass('sticky');
@@ -24,7 +24,7 @@ $('.main_h li a').click(function() {
   }
 });
 
-// Navigation Scroll - ljepo radi materem
+// Navigation Scroll - 
 $('nav a').click(function(event) {
   var id = $(this).attr("href");
   var offset = 70;

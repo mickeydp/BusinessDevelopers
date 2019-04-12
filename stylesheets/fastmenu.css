@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
-@import url("https://unpkg.com/aos@next/dist/aos.css");
 @import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
 
 html {
@@ -165,11 +164,8 @@ html {
   }
   
   .row {
-    width: 100%;
-    max-width: 940px;
     margin: 0 auto;
     position: relative;
-    padding: 0 2%;
   }
   
   
