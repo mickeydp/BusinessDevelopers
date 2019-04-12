@@ -11,23 +11,19 @@ body {
     font-family: "Lato", sans-serif;
 
 }
-
 h1 {
     color: white;
 }
-
 h3,
 h2 {
     color: var(--color-headings);
 }
-
 
 main {
     margin: 10px 20px;
     text-align: center;
 
 }
-
 main img {
     max-width: 100%;
 }
