@@ -1,13 +1,13 @@
 var config = {
-    apiKey: "xxxxx",
-    authDomain: "xxxxx",
-    databaseURL: "xxxxx",
-    projectId: "xxxxx",
-    storageBucket: "xxxxx",
-    messagingSenderId: "xxxxx"
-  };
-  firebase.initializeApp(config);
-  
+  apiKey: "AIzaSyA91oZ2t0zZwKCcqPzOKI4NBv_QVqKqsEQ",
+  authDomain: "businessdevelopers-6a40e.firebaseapp.com",
+  databaseURL: "https://businessdevelopers-6a40e.firebaseio.com",
+  projectId: "businessdevelopers-6a40e",
+  storageBucket: "businessdevelopers-6a40e.appspot.com",
+  messagingSenderId: "862962408420"
+};
+firebase.initializeApp(config);
+
   // Reference messages collection
   var messagesRef = firebase.database().ref('messages');
   
@@ -57,3 +57,5 @@ var config = {
     });
   }
   
+
+

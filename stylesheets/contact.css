@@ -1,1 +1,118 @@
-body{background-image:var(--website-bg),url("../img/background/contact.svg");color:var(--color-text-1);line-height:1.6;font-family:"Lato",sans-serif;text-align:center}.container{margin-left:auto;margin-right:auto;padding:1em}ul{list-style:none;padding:0}.wrapper{-webkit-box-shadow:10px 10px 159px 0 rgba(0,0,0,0.75);-moz-box-shadow:10px 10px 159px 0 rgba(0,0,0,0.75);box-shadow:10px 10px 159px 0 rgba(0,0,0,0.75)}.wrapper>*{padding:1em}.company-info{background:var(--website-bg);color:var(--color-text-2)}.company-info h3,.company-info ul{text-align:center;margin:0 0 1rem 0}.contact{background:var(--website-bg);color:var(--color-text-2)}.contact form{display:grid;grid-template-columns:1fr 1fr;grid-gap:20px}.contact form label{display:block}.contact form p{margin:0}.contact form .full{grid-column:1 / 3}.contact form button,.contact form input,.contact form textarea{width:100%;padding:1em;border:1px solid #c9e6ff}.contact form button{background:color:var(--website-bg);border:0;text-transform:uppercase}.contact form button:hover,.contact form button:focus{background:#92bde7;color:var(--color-text-2);outline:0;transition:background-color 2s ease-out}input[type=text],input[type=email],textarea{background:var(--bg);color:var(--color-text-1)}.alert{text-align:center;padding:10px;background:#79c879;color:#fff;margin-bottom:10px;display:none}@media(min-width:700px){.wrapper{display:grid;grid-template-columns:1fr 2fr}.wrapper>*{padding:2em}.company-info h3,.company-info ul,.brand{text-align:left}}
+@import "../stylesheets/fastmenu.css";
+@import "../stylesheets/footer.css";
+body {
+    background-image: var(--website-bg), url("../img/background/contact.svg");
+    color: var(--color-text-1);
+    line-height: 1.6;
+    font-family: "Lato", sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.wrapper {
+    -webkit-box-shadow: 10px 10px 159px 0 rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 159px 0 rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 159px 0 rgba(0, 0, 0, 0.75);
+}
+
+.wrapper>* {
+    padding: 1em;
+}
+
+.company-info {
+    background: var(--website-bg);
+    color: var(--color-text-2);
+}
+
+.company-info h3,
+.company-info ul {
+    text-align: center;
+    margin: 0 0 1rem 0;
+}
+
+.contact {
+    background: var(--website-bg);
+    color: var(--color-text-2);
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.contact form label {
+    display: block;
+}
+
+.contact form p {
+    margin: 0;
+}
+
+.contact form .full {
+    grid-column: 1 / 3;
+}
+
+.contact form button,
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #c9e6ff;
+}
+
+.contact form button {
+    background: color: var(--website-bg);
+    border: 0;
+    text-transform: uppercase;
+}
+
+.contact form button:hover,
+.contact form button:focus {
+    background: #92bde7;
+    color: var(--color-text-2);
+    outline: 0;
+    transition: background-color 2s ease-out;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    background: var(--bg);
+    color: var(--color-text-1);
+}
+
+.alert {
+    text-align: center;
+    padding: 10px;
+    background: #79c879;
+    color: #fff;
+    margin-bottom: 10px;
+    display: none;
+}
+
+@media(min-width:700px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+    .wrapper>* {
+        padding: 2em;
+    }
+    .company-info h3,
+    .company-info ul,
+    .brand {
+        text-align: left;
+    }
+
+}
