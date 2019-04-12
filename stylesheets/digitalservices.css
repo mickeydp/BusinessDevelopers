@@ -1,15 +1,10 @@
 @import "../stylesheets/fastmenu.css";
 @import "../stylesheets/footer.css";
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background-color:(linear, left top, right bottom, from(rgba(179, 165, 42, 0.8)), to(rgba(226, 118, 17, 0.8)));
     font-family: "Lato", sans-serif;
-
+    background: var(--website-bg);
+    line-height: 1.5;
+    text-align: center;
 }
 h1 {
     color: white;

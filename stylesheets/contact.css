@@ -1,9 +1,9 @@
 @import "../stylesheets/fastmenu.css";
 @import "../stylesheets/footer.css";
 body {
-    background-image: var(--website-bg), url("../img/background/contact.svg");
-    color: var(--color-text-1);
     font-family: "Lato", sans-serif;
+    background: var(--website-bg);
+    line-height: 1.5;
     text-align: center;
 }
 
